@@ -172,7 +172,7 @@ p{
        width:100%;
        padding: 40px;
        margin: 0 auto;
-       height: 650px;
+       height: 800px;
        border-radius: 5px;
        background-color: #839e9e;
        transition: 0.3s;
@@ -258,7 +258,7 @@ p{
    }
    @keyframes javascript{
     to{
-        width: 40%;
+        width: 80%;
     }
    }
    .skills-container li.bootstrapt::after{
@@ -266,7 +266,7 @@ p{
    }
    @keyframes bootstrapt{
     to{
-        width: 5%;
+        width: 50%;
     }
    }
    .skills-container li.c::after{
@@ -274,23 +274,15 @@ p{
    }
    @keyframes c{
     to{
-        width: 80%;
+        width: 85%;
     }
    }
-   .skills-container li.cplus::after{
-    animation-name: cplus;
+   .skills-container li.cSharp::after{
+    animation-name: cSharp;
    }
-   @keyframes cplus{
+   @keyframes cSharp{
     to{
-        width: 75%;
-    }
-   }
-   .skills-container li.jquery::after{
-    animation-name: jquery;
-   }
-   @keyframes jquery{
-    to{
-        width: 2%;
+        width: 85%;
     }
    }
    .skills-container li.nodejs::after{
@@ -298,7 +290,47 @@ p{
    }
    @keyframes nodejs{
     to{
-        width: 5%;
+        width: 60%;
+    }
+   }
+   .skills-container li.dotnet::after{
+    animation-name: dotnet;
+   }
+   @keyframes dotnet{
+    to{
+        width: 80%;
+    }
+   }
+   .skills-container li.mysql::after{
+    animation-name: mysql;
+   }
+   @keyframes mysql{
+    to{
+        width: 60%;
+    }
+   }
+   .skills-container li.python::after{
+    animation-name: python;
+   }
+   @keyframes python{
+    to{
+        width: 60%;
+    }
+   }
+   .skills-container li.dsa::after{
+    animation-name: dsa;
+   }
+   @keyframes dsa{
+    to{
+        width: 70%;
+    }
+   }
+   .skills-container li.unity::after{
+    animation-name: unity;
+   }
+   @keyframes unity{
+    to{
+        width: 70%;
     }
    }
    .skills-container li.reactjs::after{
